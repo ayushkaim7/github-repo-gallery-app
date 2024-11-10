@@ -1,4 +1,5 @@
 import 'package:assignment/bottom_nav.dart';
+import 'package:assignment/splash_screen.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -18,7 +19,7 @@ class _MyAppState extends State<MyApp> {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       home: Scaffold(
-        body: BottomNav(),
+        body: SplashScreen(),
       ),
     );
   }
